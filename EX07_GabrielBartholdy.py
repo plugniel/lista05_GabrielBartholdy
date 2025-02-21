@@ -8,7 +8,9 @@ while i < 1:
     if nome in lista :
         lista.index(nome)
         print('ja cadastrado')
+    if nome == 'sair':
+        print(lista)
         break
+      
     else:
         lista.append(nome)
-print(lista)
