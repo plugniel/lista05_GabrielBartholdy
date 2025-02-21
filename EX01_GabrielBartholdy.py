@@ -7,3 +7,4 @@ while True:
     if total > 50:
         print('o resultado deu {}'.format(total))
         break
+print("gabriel bartholdy")

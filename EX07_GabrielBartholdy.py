@@ -4,13 +4,15 @@ lista = []
 i = 0
 
 while i < 1:
-    nome = input('insira o nome que deseja adicionar: ')
+    nome = input('insira o nome que deseja adicionar:(Para sair digite "sair") ')
     if nome in lista :
         lista.index(nome)
         print('ja cadastrado')
+        lista.remove(nome)
     if nome == 'sair':
         print(lista)
         break
       
     else:
         lista.append(nome)
+print("gabriel bartholdy")

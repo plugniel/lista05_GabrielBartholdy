@@ -18,4 +18,5 @@ while teta != 50 :
         teta += 1
         print('parabens voce acertou!!!')
         print('tentavias {}'.format(teta))
+        print("gabriel bartholdy")
         break

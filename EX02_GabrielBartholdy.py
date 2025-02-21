@@ -6,3 +6,4 @@ while i <5:
     numero = int(input('Digite um numero: '))
     i += 1
 print("seu ultimo numero : {}".format(numero))
+print("gabriel bartholdy")
